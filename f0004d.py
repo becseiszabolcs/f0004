@@ -1,0 +1,5 @@
+a=int(input("hány magyar mérföldre van a sárkány barlangja? "))
+tengeri   = int(a*1.15)
+kilometer = int(a/1.6)
+print(f"\nkilométer:       {kilometer}")
+print(f"tengeri mérföld: {tengeri}")
